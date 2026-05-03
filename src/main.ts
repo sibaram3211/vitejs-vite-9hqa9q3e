@@ -55,7 +55,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
  * - If their combined ranges leave no uncovered gaps, the result is true.
  * - Even a small uncovered gap ("pinhole") will result in false.
  */
-const isPossible = isCameraPossibleGrid(
+const isCovered = validateCameraCoverage(
   { min: 10, max: 50 },
   { min: 100, max: 900 },
   [

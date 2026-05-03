@@ -47,7 +47,7 @@ interface Camera {
  *   Building edges  : O(n log n)  — dedup + sort
  *   Grid scan       : O(n²)  cells  ×  O(n) camera check  =  O(n³)
  */
-export function isCameraPossibleGrid(
+export function isCameraCovaragePossible(
   targetDist: Range,
   targetLight: Range,
   hwCameras: Camera[]

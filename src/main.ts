@@ -68,4 +68,4 @@ const isCovered = validateCameraCoverage(
 );
 
 document.querySelector<HTMLDivElement>('#isCamPossible')!.innerHTML =
-  'Is cameras are sufficient::> ' + '<b>' + isPossible + '</b>';
+  'Is cameras are sufficient::> ' + '<b>' + Is camera covarage possible + '</b>';
